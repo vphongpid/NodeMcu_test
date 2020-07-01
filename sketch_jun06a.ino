@@ -22,7 +22,7 @@
 #define MAX_DATA_GRAPH 128/TIME_UNIT + 1
 #define TFT_RST   D4      
 #define TFT_CS    D3      
-#define TFT_DC    D2      
+#define TFT_DC    D8      
 //SCK (CLK) ---> NodeMCU pin D5 (GPIO14)
 //MOSI(DIN) ---> NodeMCU pin D7 (GPIO13)
 Adafruit_ST7735 tft = Adafruit_ST7735(TFT_CS, TFT_DC, TFT_RST);
